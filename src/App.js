@@ -28,6 +28,7 @@ function App() {
     setTours(newTours);
   };
 
+  // fetch tour on initial component load
   useEffect(() => {
     fetchtour();
   }, []);
